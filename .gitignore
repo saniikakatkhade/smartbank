@@ -31,3 +31,21 @@ build/
 
 ### VS Code ###
 .vscode/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+application-local.properties
+*.pem
+*.key
+
+# Build output
+target/
+
+# Logs
+*.log
+
+# Local database files
+*.db
+*.sqlite
